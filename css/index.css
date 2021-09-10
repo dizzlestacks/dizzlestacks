@@ -7,11 +7,14 @@ header img { width: 50px;
 body {
 	background-color: black;
 	text-align: center;
-	font-size: 15px;
+	font-size: 18px;
 	text-transform: uppercase;
-	font-family: 'Special Elite', cursive;
-	word-spacing:.10em;
+	font-family: courier,Courier New,
+	Lucida Sans Typewriter,
+	Lucida Typewriter,monospace;
 	color: white;
+	
+
 
 }
 	
@@ -21,7 +24,28 @@ body {
 a {
 	color: white;
 	font-size: 20px;
-	padding: .0px ;
 	white-space: nowrap;
+	text-decoration: none;
+}
 
+p {
+	left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    word-spacing: 100px;
+}
+
+#para {
+	left: 0;
+    line-height: 200px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: ;
 }
