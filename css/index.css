@@ -1,0 +1,28 @@
+header img { width: 50px;
+	position: top;
+	align-items: center;
+
+
+}
+body {
+	background-color: black;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'Special Elite', cursive;
+	word-spacing:.10em;
+	color: white;
+
+}
+	
+
+/*centering body*/
+
+a {
+	color: white;
+	font-size: 20px;
+	padding: .0px ;
+	white-space: nowrap;
+
+
+	}
