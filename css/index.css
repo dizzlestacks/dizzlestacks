@@ -11,36 +11,48 @@ body {
 	;
 }
 	
-	#para {
-	left: 0;
+#para{ left: 0;
     line-height: 200px;
-    margin-top: 50px;
+    margin-top: -50px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
-    color: white ;
-    text-decoration: none;
-    ;
-
 }
 
-/*centering body*/
-
-p,a { left: 0;
+#music{ left: 0;
     line-height: 200px;
     margin-top: -100px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
+    margin-left: -100px;
+}
+
+#videos{ left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+#merch{ left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    ;
 
 }
 
-header img {
-	position: top;
-	size: 20px;
-}
+/*centering body*/
+
+
 
 /* if desktop */
     .mobile_device_380px {
@@ -62,3 +74,4 @@ header img {
        .mobile_device_480px{display: block;}
        .desktop {display: none;}
     }
+
