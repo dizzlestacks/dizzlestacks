@@ -1,4 +1,4 @@
-header img { width: 50px;
+header img { width: 200px;
 	position: top;
 	align-items: center;
 
@@ -13,11 +13,18 @@ body {
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
 	color: white;
-	
-
-
 }
 	
+	#para {
+	left: 0;
+    line-height: 200px;
+    margin-top: -75px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: ;
+}
 
 /*centering body*/
 
@@ -28,24 +35,33 @@ a {
 	text-decoration: none;
 }
 
-p {
-	left: 0;
+p { left: 0;
     line-height: 200px;
     margin-top: -100px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
-    
+
 }
 
-#para {
-	left: 0;
-    line-height: 200px;
-    margin-top: -75px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    color: ;
-}
+/* if desktop */
+    .mobile_device_380px {
+        display: none;
+    }
+    .mobile_device_480px {
+        display: none;
+    }
+
+
+    /* if mobile device max width 380px */
+    @media only screen and (max-device-width: 380px) {
+        .mobile_device_380px{display: block;}       
+        .desktop {display: none;}
+    } 
+
+    /* if mobile device max width 480px */
+    @media only screen and (max-device-width: 480px) {
+       .mobile_device_480px{display: block;}
+       .desktop {display: none;}
+    }
