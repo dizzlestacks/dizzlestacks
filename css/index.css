@@ -1,41 +1,33 @@
-header img { width: 200px;
-	position: top;
-	align-items: center;
 
-
-}
 body {
 	background-color: black;
 	text-align: center;
-	font-size: 18px;
+	font-size: 25px;
 	text-transform: uppercase;
 	font-family: courier,Courier New,
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
 	color: white;
+	;
 }
 	
 	#para {
 	left: 0;
     line-height: 200px;
-    margin-top: -75px;
+    margin-top: 50px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
-    color: ;
+    color: white ;
+    text-decoration: none;
+    ;
+
 }
 
 /*centering body*/
 
-a {
-	color: white;
-	font-size: 20px;
-	white-space: nowrap;
-	text-decoration: none;
-}
-
-p { left: 0;
+p,a { left: 0;
     line-height: 200px;
     margin-top: -100px;
     position: absolute;
@@ -43,6 +35,11 @@ p { left: 0;
     top: 50%;
     width: 100%;
 
+}
+
+header img {
+	position: top;
+	size: 20px;
 }
 
 /* if desktop */
