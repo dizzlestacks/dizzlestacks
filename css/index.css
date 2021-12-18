@@ -1,3 +1,6 @@
+header { 
+  
+}
 
 body {
 	background-color: black;
@@ -8,6 +11,7 @@ body {
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
 	color: white;
+    ;
 	;
 }
 	
@@ -42,12 +46,11 @@ body {
 #merch{ left: 0;
     line-height: 200px;
     margin-top: -100px;
-    ;
+    position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
-    margin-right: 100px;
-
+    margin-left: 100px;
 }
 
 /*centering body*/
