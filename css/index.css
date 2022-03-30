@@ -8,17 +8,17 @@ body
 	font-family: courier,Courier New,
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
-	color: white;
-    text-align: center;
+	text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;        
     transform: translate(-50%, -50%);
+    color: white;
 
 }
 
-.logo
+/*.logo*/
 {
     width: 100px;
     letter-spacing: 0;
@@ -27,4 +27,9 @@ body
     text-align: center;
     position: static;
 
+}
+
+#link {
+    text-decoration-color: white;
+    text-decoration-line: none;
 }
