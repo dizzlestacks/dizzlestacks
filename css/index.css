@@ -1,59 +1,30 @@
-header { 
-  
-}
 
-body {
+
+body 
+{
 	background-color: black;
-	text-align: center;
 	font-size: 25px;
-	text-transform: uppercase;
+	text-transform: lowerecase;
 	font-family: courier,Courier New,
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
 	color: white;
-    ;
-	;
-}
-	
-#para{ left: 0;
-    line-height: 200px;
-    margin-top: -50px;
-    position: absolute;
     text-align: center;
-    top: 50%;
-    width: 100%;
-}
-
-#music{ left: 0;
-    line-height: 200px;
-    margin-top: -100px;
     position: absolute;
-    text-align: center;
     top: 50%;
-    width: 100%;
-    margin-left: -100px;
+    left: 50%;
+    margin-right: -50%;        
+    transform: translate(-50%, -50%);
+
 }
 
-#videos{ left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
+.logo
+{
+    width: 100px;
+    letter-spacing: 0;
+    margin-top: -7px;
+    display: inline-block;
     text-align: center;
-    top: 50%;
-    width: 100%;
+    position: static;
+
 }
-
-#merch{ left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    margin-left: 100px;
-}
-
-/*centering body*/
-
-
-
