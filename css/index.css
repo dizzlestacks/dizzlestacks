@@ -3,8 +3,8 @@
 body 
 {
 	background-color: black;
-	font-size: 25px;
-	text-transform: lowerecase;
+	font-size: 30px;
+	text-transform: lowercase;
 	font-family: courier,Courier New,
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
@@ -18,18 +18,3 @@ body
 
 }
 
-/*.logo*/
-{
-    width: 100px;
-    letter-spacing: 0;
-    margin-top: -7px;
-    display: inline-block;
-    text-align: center;
-    position: static;
-
-}
-
-#link {
-    text-decoration-color: white;
-    text-decoration-line: none;
-}
