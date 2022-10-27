@@ -3,8 +3,8 @@
 body 
 {
 	background-color: black;
-	font-size: 17px;
-	text-transform: lowercase;
+	font-size: 25px;
+	text-transform: uppercase;
 	font-family: courier,Courier New,
 	Lucida Sans Typewriter,
 	Lucida Typewriter,monospace;
@@ -16,5 +16,4 @@ body
     transform: translate(-50%, -50%);
     color: white;
 
-}
 
